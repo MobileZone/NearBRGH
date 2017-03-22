@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SmartAR</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <link rel="stylesheet" type="text/css" href="css/index.css"></link>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB3S4xlyxS2k0ZLLz1cWMD1J-mS30hzqW4"></script> <!-- Your Google Maps KEY -->
+
+    <script type="text/javascript" src="lib/rich-markers.min.js"></script>
+
+    <script src="cordova.js"></script>
+  </head>
+  <body id="body" style="background-color: transparent">  
+    <div id="arView" style="background-color: transparent">
+        <div id="direction"></div>
+        <br>
+        <div id="spot"></div>
+    </div>
+    <div id="topView" style="background-color: white">
+        <div class="nav">
+            <div id="maplist" onclick="toggleView()"><i class="material-icons">map</i></div>    
+            <div class="logo">
+            <img src="img/logo.png" height="20"> <!-- Your Logo - replace in img folder - logo.png image -->
+            </div> 
+        </div>
+        <div id="overlay" onclick="closeVenueInfo()"></div>
+        <div class="infoModal">
+        </div>
+        <div class="listView">
+            <div class="listItems"></div>
+        </div>
+        <div class="mapView">
+            <div id="map"></div>
+        </div>
+    </div>     
+  </body>
+</html>

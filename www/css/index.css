@@ -1,0 +1,155 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: transparent;
+    font-family: Arial;
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+}
+.nav {
+    background-color: #2c3e50;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.logo {
+    text-align: left;
+}
+#maplist {
+    float: right;
+}
+.mapView {
+    display: none
+}
+#map {
+    height: 200px;
+}
+#arView,
+#topView {
+    display: none;
+}
+#arView {
+    padding: 30px 0;
+    height: 70px;
+    text-align: center
+}
+#spot {
+    text-align: left;
+}
+.namecontainer {
+    display: table;
+    margin-bottom: 10px;
+}
+.iconimg {
+    display: table-cell;
+    vertical-align: middle;
+}
+.details {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,.5);
+    padding: 10px;
+}
+.dist {
+    font-size: 9px;
+}
+.rating {
+    font-size: 10px;
+    font-weight: 900;
+    position: absolute;
+    background-color: #e67e22;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    margin: -10px 0px 0px -10px;
+}
+.item {
+    display: table;
+    background-color: #95a5a6;
+    margin-top: 2px;
+}
+.item .iconimg img {
+    width: 30px;
+}
+.item p {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+.item .listrating {
+    font-size: 12px;
+    font-weight: 900;
+    position: absolute;
+    background-color: #e67e22;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    margin: 7px 0px 0px -30px;
+    color: #fff;
+}
+#direction {
+    color: #fff;
+    font-size: 16px;
+    padding: 15px;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 500px;
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 20px;
+    line-height: 20px
+}
+.snap {
+    position: absolute;
+    right: 31px;
+    bottom: 26px;
+}
+.namecontainer {
+    background-color: #16a085;
+    color: #fff;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.infoModal {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0px;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+    padding: 20px;
+}
+.infoModal .close {
+    font-size: 35px;
+    position: absolute;
+    right: 50px;
+}
+.infoModal .ratingandlikes i {
+    font-size: 18px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.infoModal .ratingandlikes p {
+    font-size: 11px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.infoModal .ratingandlikes {
+    padding: 10px;
+    color: #333;
+    display: inline-block;
+    display: table;
+}
+
