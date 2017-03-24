@@ -17,7 +17,7 @@
       Robert Vaar
   </author>
 
-  <plugin name="com.ezartech.ezar.videooverlay" spec="0.2.4" />
+  <plugin name="com.ezartech.ezar.videooverlay" />
   <plugin name="cordova-plugin-camera" spec="~2.4.0" />
 
   <preference name="android-minSdkVersion" value="22" />
